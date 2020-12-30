@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    width: 310px;
+    list-style: none;
+}
+
+li {
+    padding-top: 13px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    background: gray;
+    font-size: 50px;
+    text-align: center;
+}
+
+.notOver:hover {
+    background-color: yellow;
+}
+
+.clicked {
+    background: white;
+}
+
+.loser {
+    color: red;
+}
+
+.winner{
+    background: green;
+    color: white;
+}
