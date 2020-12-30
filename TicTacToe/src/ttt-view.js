@@ -23,7 +23,7 @@ class View {
 
       if(this.game.isOver()){
         $('body').append(`You win, ${currentPlayer}!`);
-        const $button = $('<button onClick="window.location.href=window.location.href">Play Again</button>');
+        const $button = $(`<button onClick="window.location.href=window.location.href">Play Again</button>`);
         $('body').append($button);
         $("ul").off("click");
         $("li").removeClass("notOver");
